@@ -77,14 +77,14 @@
 
 (defun main ()
   (let (listFile1 listFile2 listTempt)
-    (setf listFile1 (file2List "file3.txt"))
-    (setf listFile2 (file2List "file4.txt"))
+    (setf listFile1 (file2List "file1.txt"))
+    (setf listFile2 (file2List "file2.txt"))
     ;;(setf listFile1 '("1" "2" "3" "4"))
     ;;(setf listFile2 '("10" "2" "5"))
     ;;(setf listFile1 '("10" "11" "12" "1" "2" "3" "4" "5"))
     ;;(setf listFile2 '("100" "3" "7" "1" "8" "9"))
-    (print listFile1)
-    (print listFile2)
+    ;;(print listFile1)
+    ;;(print listFile2)
     
     ;; loop through each item in list of file2
     (loop for item in listFile2
