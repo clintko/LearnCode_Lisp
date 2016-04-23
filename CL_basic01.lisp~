@@ -1,0 +1,13 @@
+;; variable type
+"hello world"   ; string
+#(1 2 3 "test") ; array, which can hold any data type
+
+;; an empty list equals null, which is called nil in Lisp
+()
+nil
+
+;; basic lisp expression
+;; (0 1 2)
+;; 0    --- function
+;; 1, 2 --- variables
+(+ 1 2)
